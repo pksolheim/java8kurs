@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "firstName": "Clark",
+        "lastName": "Kent",
+        "age": 78,
+        "address": "Smallville",
+        "powerRating": 100
+    },
+    {
+        "id": "1",
+        "firstName": "Bruce",
+        "lastName": "Wayne",
+        "age": 77,
+        "address": "Gotham City",
+        "powerRating": 80
+    },
+    {
+        "id": "2",
+        "firstName": "Diana",
+        "lastName": "Prince",
+        "age": 75,
+        "address": "Paradise Island",
+        "powerRating": 100
+    },
+    {
+        "id": "3",
+        "firstName": "Hal",
+        "lastName": "Jordan",
+        "age": 76,
+        "address": "Coast City",
+        "powerRating": 50
+    },
+    {
+        "id": "4",
+        "firstName": "Steve",
+        "lastName": "Rogers",
+        "age": 96,
+        "address": "",
+        "powerRating": 90
+    },
+    {
+        "id": "5",
+        "firstName": "Barry",
+        "lastName": "Allen",
+        "age": 27,
+        "address": "Central City",
+        "powerRating": 85
+    }
+]
