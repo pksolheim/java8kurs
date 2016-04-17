@@ -13,8 +13,8 @@ public class Excercise2a {
         // 1. Refactor to a lambda expression
         process(new HelloWorld() {
             @Override
-            public void printString(int count) {
-                for (int i = 0; i < count; i++) {
+            public void printString(int number) {
+                for (int i = 0; i < number; i++) {
                     System.out.println("ANONYMOUS: Hello World " + i);
                 }
             }
