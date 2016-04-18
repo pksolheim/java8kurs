@@ -60,7 +60,7 @@ public class Exercise3bImpl implements com.capgemini.exercise3.Exercise3b {
         exercise.concatenateStrings("Rocky", "Balboa");
         exercise.longString("Humphrey");
         exercise.stringToBoolean("TRUE");
-        exercise.mapNames(Arrays.asList(new String[]{"Jens", "Erna", "Per", "Jonas", "Magne"}), "rules (or?).");
+        exercise.mapNames(Arrays.asList(new String[]{"Superman", "Batman", "Wonder Woman", "Indiana Jones"}), "rules.");
         exercise.createString();
     }
 }
