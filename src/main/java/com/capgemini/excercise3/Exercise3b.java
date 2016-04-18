@@ -1,8 +1,8 @@
-package main.java.com.capgemini.excercise2;
+package com.capgemini.excercise3;
 
 import java.util.List;
 
-public interface Exercise2b{
+public interface Exercise3b {
 
     void stringToBoolean(String value);
 
@@ -10,7 +10,7 @@ public interface Exercise2b{
 
     void mapNames(List<String> l, String suffix);
 
-    void concatenateSrtings(String firstName, String lastName);
+    void concatenateStrings(String firstName, String lastName);
 
     void createString();
 }

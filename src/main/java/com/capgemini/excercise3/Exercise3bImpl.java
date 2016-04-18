@@ -1,11 +1,11 @@
-package main.java.com.capgemini.excercise2;
+package com.capgemini.excercise3;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class Exercise2bImpl implements Exercise2b{
+public class Exercise3bImpl implements Exercise3b{
 
     //Look at the documentation of package java.util.function and find a pre built interface to solve the following problems
     //Bonus points for method references!! :)
@@ -29,7 +29,7 @@ public class Exercise2bImpl implements Exercise2b{
     }
 
     //4. Use  a built in functional interface to concatenate two Strings
-    public void concatenateSrtings(String firstName, String lastName)
+    public void concatenateStrings(String firstName, String lastName)
     {
         throw new NotImplementedException();
     }
@@ -42,10 +42,10 @@ public class Exercise2bImpl implements Exercise2b{
 
     public static void main (String[] args)
     {
-        Exercise2b exercise;
+        Exercise3b exercise;
 
-        exercise = new Exercise2bImpl();
-        exercise.concatenateSrtings("Rocky", "Balboa");
+        exercise = new com.capgemini.excercise3.Exercise3bImpl();
+        exercise.concatenateStrings("Rocky", "Balboa");
         exercise.longString("Humphrey");
         exercise.stringToBoolean("TRUE");
         exercise.mapNames(Arrays.asList(new String[]{"Jens", "Erna", "Per", "Jonas", "Magne"}), "rules (not).");

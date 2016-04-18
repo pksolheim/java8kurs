@@ -1,4 +1,4 @@
-package main.java.com.capgemini.excercise2.util;
+package com.capgemini.util;
 
 @FunctionalInterface
 public interface HelloWorld {

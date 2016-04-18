@@ -1,11 +1,11 @@
-package main.java.com.capgemini.excercise2.fasit;
+package com.capgemini.excercise3.solution;
 
-import main.java.com.capgemini.excercise2.util.HelloWorld;
+import com.capgemini.util.HelloWorld;
 
 /**
  * Created by psolheim on 16.04.2016.
  */
-public class Excercise2a {
+public class Excercise3a {
 
     public static void process(HelloWorld hw) {
         hw.printString(2);
@@ -15,7 +15,7 @@ public class Excercise2a {
 
         // refactor to lambda expression
         // anonymous class
-//        process(new main.java.com.capgemini.excercise2.util.HelloWorld() {
+//        process(new main.java.com.capgemini.util.HelloWorld() {
 //            @Override
 //            public void printString(int count) {
 //                for (int i = 0; i < count; i++) {

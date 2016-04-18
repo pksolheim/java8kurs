@@ -1,12 +1,10 @@
-package main.java.com.capgemini.excercise2.fasit;
-
-import main.java.com.capgemini.excercise2.Exercise2b;
+package com.capgemini.excercise3.solution;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.*;
 
-public class Exercise2bImpl implements Exercise2b{
+public class Exercise3bImpl implements com.capgemini.excercise3.Exercise3b {
 
     //Look at the documentation of package java.util.function and find a pre built interface to solve the following problems
     //Bonus points for method references!! :)
@@ -41,7 +39,7 @@ public class Exercise2bImpl implements Exercise2b{
     }
 
     //4. Use  a built in functional interface to concatenate two Strings
-    public void concatenateSrtings(String firstName, String lastName)
+    public void concatenateStrings(String firstName, String lastName)
     {
         UnaryOperator<String> uo = s -> s + " " + lastName;
         System.out.print(uo.apply(firstName));
@@ -56,10 +54,10 @@ public class Exercise2bImpl implements Exercise2b{
 
     public static void main (String[] args)
     {
-        Exercise2b exercise;
+        com.capgemini.excercise3.Exercise3b exercise;
 
-        exercise = new Exercise2bImpl();
-        exercise.concatenateSrtings("Rocky", "Balboa");
+        exercise = new com.capgemini.excercise3.solution.Exercise3bImpl();
+        exercise.concatenateStrings("Rocky", "Balboa");
         exercise.longString("Humphrey");
         exercise.stringToBoolean("TRUE");
         exercise.mapNames(Arrays.asList(new String[]{"Jens", "Erna", "Per", "Jonas", "Magne"}), "rules (or?).");

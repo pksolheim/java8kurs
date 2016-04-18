@@ -1,4 +1,4 @@
-package com.capgemini;
+package com.capgemini.excercise4;
 
 import com.capgemini.domain.SuperHero;
 import com.google.gson.Gson;
@@ -35,7 +35,6 @@ public class FileReader {
         File file = new File(classLoader.getResource(fileName).getFile());
 
         try (BufferedReader br = Files.newBufferedReader(file.toPath())) {
-
             listOfNames = br.lines()
                     .collect(Collectors.toList());
 
