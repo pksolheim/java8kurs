@@ -4,6 +4,7 @@ import com.capgemini.domain.SuperHero;
 import com.capgemini.exercise4.FileReader;
 import org.junit.Before;
 import org.junit.Test;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -65,5 +66,23 @@ public class Exercise4Test {
                 .findFirst();
 
         assertThat(vampire.isPresent(), is(false));
+    }
+
+    @Test
+    public void testThatAllBecomeMuggles() {
+
+        List<SuperHero> muggleList = superHeroList.stream()
+                .map(p -> {
+                    p.setPowerRating(0);
+                    return p;
+                })
+                .collect(Collectors.toList());
+
+
+        Optional<SuperHero> superHeroOptional = muggleList.stream()
+                .filter(p -> p.getPowerRating() > 0)
+                .findAny();
+
+        assertThat(superHeroOptional.isPresent(), is(false));
     }
 }
