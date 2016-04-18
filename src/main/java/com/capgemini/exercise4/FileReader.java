@@ -1,4 +1,4 @@
-package com.capgemini.excercise4;
+package com.capgemini.exercise4;
 
 import com.capgemini.domain.SuperHero;
 import com.google.gson.Gson;

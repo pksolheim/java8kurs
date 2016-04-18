@@ -1,6 +1,6 @@
 package com.capgemini;
 
-import com.capgemini.excercise2.CreditCard;
+import com.capgemini.exercise2.CreditCard;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +19,7 @@ import static org.junit.Assert.assertThat;
  * Time: 20:22
  * To change this template use File | Settings | File Templates.
  */
-public class Excercise2Test {
+public class Exercise2Test {
 
     private CreditCard creditCard;
 

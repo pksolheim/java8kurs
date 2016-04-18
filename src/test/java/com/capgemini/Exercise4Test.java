@@ -1,10 +1,9 @@
 package com.capgemini;
 
 import com.capgemini.domain.SuperHero;
-import com.capgemini.excercise4.FileReader;
+import com.capgemini.exercise4.FileReader;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -19,7 +18,7 @@ import static org.junit.Assert.assertThat;
  * Time: 20:47
  * To change this template use File | Settings | File Templates.
  */
-public class Excercise4Test {
+public class Exercise4Test {
 
     private List<String> nameList;
     private List<SuperHero> superHeroList;

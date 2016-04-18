@@ -1,6 +1,6 @@
 package com.capgemini;
 
-import com.capgemini.excercise1.SuperHeroAbilities;
+import com.capgemini.exercise1.SuperHeroAbilities;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,7 +14,7 @@ import static org.junit.Assert.assertThat;
  * Time: 10:05
  * To change this template use File | Settings | File Templates.
  */
-public class Excercise1Test {
+public class Exercise1Test {
 
     private SuperHeroAbilities superHeroAbilities;
 

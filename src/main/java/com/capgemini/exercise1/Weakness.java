@@ -1,4 +1,4 @@
-package com.capgemini.excercise1;
+package com.capgemini.exercise1;
 
 /**
  * Created with IntelliJ IDEA.

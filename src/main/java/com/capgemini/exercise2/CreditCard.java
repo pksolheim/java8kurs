@@ -1,4 +1,4 @@
-package com.capgemini.excercise2;
+package com.capgemini.exercise2;
 
 import java.time.*;
 

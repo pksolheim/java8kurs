@@ -1,4 +1,4 @@
-package com.capgemini.excercise3;
+package com.capgemini.exercise3;
 
 import java.util.List;
 

@@ -1,11 +1,11 @@
-package com.capgemini.excercise3.solution;
+package com.capgemini.exercise3.solution;
 
 import com.capgemini.util.HelloWorld;
 
 /**
  * Created by psolheim on 16.04.2016.
  */
-public class Excercise3a {
+public class Exercise3a {
 
     public static void process(HelloWorld hw) {
         hw.printString(2);

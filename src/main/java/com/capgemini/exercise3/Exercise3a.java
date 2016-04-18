@@ -1,8 +1,8 @@
-package com.capgemini.excercise3;
+package com.capgemini.exercise3;
 
 import com.capgemini.util.HelloWorld;
 
-public class Excercise3a {
+public class Exercise3a {
 
     public static void process(HelloWorld hw) {
         hw.printString(2);
