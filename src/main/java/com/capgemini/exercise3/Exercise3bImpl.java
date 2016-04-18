@@ -48,7 +48,7 @@ public class Exercise3bImpl implements Exercise3b{
         exercise.concatenateStrings("Rocky", "Balboa");
         exercise.longString("Humphrey");
         exercise.stringToBoolean("TRUE");
-        exercise.mapNames(Arrays.asList(new String[]{"Jens", "Erna", "Per", "Jonas", "Magne"}), "rules (not).");
+        exercise.mapNames(Arrays.asList(new String[]{"Superman", "Batman", "Wonder Woman", "Indiana Jones"}), "rules (not).");
         exercise.createString();
     }
 }
