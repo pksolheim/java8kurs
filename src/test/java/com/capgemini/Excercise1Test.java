@@ -1,5 +1,12 @@
 package com.capgemini;
 
+import com.capgemini.excercise1.SuperHeroAbilities;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.hamcrest.core.Is.is;
+import static org.junit.Assert.assertThat;
+
 /**
  * Created with IntelliJ IDEA.
  * User: skumbera
@@ -8,4 +15,16 @@ package com.capgemini;
  * To change this template use File | Settings | File Templates.
  */
 public class Excercise1Test {
+
+    private SuperHeroAbilities superHeroAbilities;
+
+    @Before
+    public void init() {
+        superHeroAbilities = new SuperHeroAbilities();
+    }
+
+    @Test
+    public void testSuperHeroAbility() {
+        assertThat(superHeroAbilities.apply(), is("Heat vision!"));
+    }
 }

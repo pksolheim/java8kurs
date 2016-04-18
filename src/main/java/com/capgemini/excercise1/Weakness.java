@@ -8,4 +8,7 @@ package com.capgemini.excercise1;
  * To change this template use File | Settings | File Templates.
  */
 public interface Weakness {
+    default String apply() {
+        return "Kryptonite :(";
+    }
 }

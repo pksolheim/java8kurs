@@ -7,5 +7,9 @@ package com.capgemini.excercise1;
  * Time: 10:07
  * To change this template use File | Settings | File Templates.
  */
-public class SuperHero implements SuperPower, Weakness {
+public class SuperHeroAbilities implements SuperPower, Weakness {
+    @Override
+    public String apply() {
+        return SuperPower.super.apply();
+    }
 }

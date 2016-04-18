@@ -8,4 +8,7 @@ package com.capgemini.excercise1;
  * To change this template use File | Settings | File Templates.
  */
 public interface SuperPower {
+    default String apply() {
+        return "Heat vision!";
+    }
 }
